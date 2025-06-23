@@ -3,7 +3,7 @@ title: "Latent Concept Disentanglement in Transformer-based Language Models"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-06-20-disentanglement
-excerpt: '**Guanzhe Hong** \*, Bhavya Vasudeva \*, Vatsal Sharan, Cyrus Rashtchian, Prabhakar Raghavan, Rina Panigrahy'
+excerpt: '**Guanzhe Hong**\*, Bhavya Vasudeva\*, Vatsal Sharan, Cyrus Rashtchian, Prabhakar Raghavan, Rina Panigrahy'
 date: 2025-06-20
 venue: 'arXiv Preprint'
 paperurl: 'https://arxiv.org/abs/2506.16975'
