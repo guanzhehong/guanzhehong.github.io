@@ -1,14 +1,14 @@
 ---
-title: "How Transformers Solve Propositional Logic Problems: A Mechanistic Analysis"
+title: "A Implies B: Circuit Analysis in LLMs for Propositional Logical Reasoning"
 collection: publications
 category: manuscripts
 permalink: /publication/2024-12-10-propLogic_transformers
 excerpt: '**Guanzhe Hong**, Nishanth Dikkala, Enming Luo, Cyrus Rashtchian, Xin Wang, Rina Panigrahy'
-date: 2024-11-04
+date: 2025-06-20
 venue: 'arXiv Preprint'
-paperurl: 'https://arxiv.org/abs/2411.04105v3'
+paperurl: 'https://arxiv.org/abs/2411.04105'
 ---
 
-Large language models (LLMs) have shown amazing performance on tasks that require planning and reasoning. Motivated by this, we investigate the internal mechanisms that underpin a network's ability to perform complex logical reasoning. We first construct a synthetic propositional logic problem that serves as a concrete test-bed for network training and evaluation. Crucially, this problem demands nontrivial planning to solve. We perform our study on two fronts. First, we pursue an understanding of precisely how a three-layer transformer, trained from scratch and attains perfect test accuracy, solves this problem. We are able to identify certain "planning" and "reasoning" mechanisms in the network that necessitate cooperation between the attention blocks to implement the desired logic. Second, we study how pretrained LLMs, namely Mistral-7B and Gemma-2-9B, solve this problem. We characterize their reasoning circuits through causal intervention experiments, providing necessity and sufficiency evidence for the circuits. We find evidence suggesting that the two models' latent reasoning strategies are surprisingly similar, and human-like. Overall, our work systemically uncovers novel aspects of small and large transformers, and continues the study of how they plan and reason.
+Due to the size and complexity of modern large language models (LLMs), it has proven challenging to uncover the underlying mechanisms that models use to solve reasoning problems. For instance, is their reasoning for a specific problem localized to certain parts of the network? Do they break down the reasoning problem into modular components that are then executed as sequential steps as we go deeper in the model? To better understand the reasoning capability of LLMs, we study a minimal propositional logic problem that requires combining multiple facts to arrive at a solution. By studying this problem on Mistral and Gemma models, up to 27B parameters, we illuminate the core components the models use to solve such logic problems. From a mechanistic interpretability point of view, we use causal mediation analysis to uncover the pathways and components of the LLMs' reasoning processes. Then, we offer fine-grained insights into the functions of attention heads in different layers. We not only find a sparse circuit that computes the answer, but we decompose it into sub-circuits that have four distinct and modular uses. Finally, we reveal that three distinct models -- Mistral-7B, Gemma-2-9B and Gemma-2-27B -- contain analogous but not identical mechanisms.
 
 [Paper link](https://arxiv.org/abs/2411.04105) 
