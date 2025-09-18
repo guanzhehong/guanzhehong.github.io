@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2024-12-10-propLogic_transformers
 excerpt: '**Guanzhe Hong**, Nishanth Dikkala, Enming Luo, Cyrus Rashtchian, Xin Wang, Rina Panigrahy'
 date: 2025-06-20
-venue: 'arXiv Preprint'
+venue: 'NeurIPS 2025 (Spotlight)'
 paperurl: 'https://arxiv.org/abs/2411.04105'
 ---
 
